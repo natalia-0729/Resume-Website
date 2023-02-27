@@ -793,6 +793,9 @@ span{
     margin-left: 20px;
     width: 230px;
   }
+  .profile__inf{
+    margin-left: 0;
+  }
 }
 @media(max-width: 390px){
   .title, .subtitle, .date, .advantages__text {
