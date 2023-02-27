@@ -61,24 +61,24 @@ body{
 .profile__descr{
   transform: rotate(-90deg);
   position: absolute;
-  top: calc( (100vw - 320px)/(1440 - 320) * (10 - 5) + 5px);
+  top: calc( (100vw - 320px)/(1440 - 320) * (50 - 5) + 5px);
   bottom: 0;
   right: calc( (100vw - 320px)/(1440 - 320) * (-200 - (-50)) + (-50px));
 }
 .profile__name{
-  font-size: calc( (100vw - 320px)/(1440 - 320) * (65 - 16) + 16px);
+  font-size: calc( (100vw - 320px)/(1440 - 320) * (75 - 16) + 16px);
   letter-spacing: 0.01em;
   color: #EDEDED;
-  margin-bottom: calc( (100vw - 320px)/(1440 - 320) * (35 - 10) + 10px);
+  margin-bottom: calc( (100vw - 320px)/(1440 - 320) * (45 - 10) + 10px);
 }
 .profile__job{
-  font-size: calc( (100vw - 320px)/(1440 - 320) * (24 - 10) + 10px);
+  font-size: calc( (100vw - 320px)/(1440 - 320) * (29 - 10) + 10px);
   line-height: calc( (100vw - 320px)/(1440 - 320) * (45 - 12) + 12px);
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: rgba(237, 237, 237, 0.8);
-  width: calc( (100vw - 320px)/(1440 - 320) * (550 - 150) + 150px);
+  width: calc( (100vw - 320px)/(1440 - 320) * (550 - 160) + 160px);
 }
 .profile__ava{
   position: relative;
@@ -98,7 +98,7 @@ body{
 }
 .profile__contact{
   background-color: #404040;
-  max-width: calc( (100vw - 320px)/(1440 - 320) * (420 - 150) + 150px);
+  max-width: calc( (100vw - 320px)/(1440 - 320) * (385 - 150) + 150px);
   margin-left: auto;
   padding-top: calc( (100vw - 320px)/(1440 - 320) * (25 - 10) + 10px);
   padding-bottom: calc( (100vw - 320px)/(1440 - 320) * (25 - 10) + 10px);
@@ -363,15 +363,15 @@ span{
     line-height: 22px;
   }
   .profile__descr{
-    top: 10px;
+    top: 50px;
     right: -200px;
   }
   .profile__name{
-    font-size: 65px;
-    margin-bottom: 35px;
+    font-size: 75px;
+    margin-bottom: 45px;
   }
   .profile__job{
-    font-size: 24px;
+    font-size: 29px;
     line-height: 45px;
     width: 550px;
   }
@@ -379,7 +379,7 @@ span{
     width: 800px;
   }
   .profile__contact{
-    max-width: 420px;
+    max-width: 385px;
    padding: 25px;
   }
   .profile__icon{
