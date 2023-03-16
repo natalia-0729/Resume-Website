@@ -405,6 +405,15 @@ span{
   }
 }
 
+@media(max-width: 1340px){
+  .advantages__items::after{
+   left: 155px;
+  }
+  advantages__items-skills::before{
+    left: -65px;
+  }
+}
+
 @media(max-width: 1240px){
   .title, .subtitle, .date, .advantages__text {
     font-size: 16px;
