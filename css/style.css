@@ -413,6 +413,11 @@ span{
     left: -65px;
   }
 }
+@media(max-width: 1295px){
+  .advantages__items::after{
+   left: 140px;
+  }
+}
 
 @media(max-width: 1240px){
   .title, .subtitle, .date, .advantages__text {
