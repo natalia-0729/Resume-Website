@@ -131,7 +131,6 @@ body{
   font-weight: 600;
   font-size: calc( (100vw - 320px)/(1440 - 320) * (18 - 10) + 10px);
   line-height: calc( (100vw - 320px)/(1440 - 320) * (22 - 12) + 12px);
-  margin-left: calc( (100vw - 320px)/(1440 - 320) * (100 - 15) + 15px);
   margin-bottom: 10px;
 }
 .profile__text{
@@ -396,7 +395,6 @@ span{
   .profile__inf{
     font-size: 18px;
     line-height: 22px;
-    margin-left: 100px;
   }
   .profile__text{
     max-width: 700px;
